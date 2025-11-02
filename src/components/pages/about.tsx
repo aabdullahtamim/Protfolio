@@ -5,7 +5,7 @@ const About: React.FC = () => {
     return (
         <section
             id="about"
-            className="w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-background via-[#A2F4FD]/20 to-background py-20"
+            className="w-full  flex items-center justify-center bg-gradient-to-b from-background via-[#A2F4FD]/20 to-background py-20"
         >
             <div className="container mx-auto px-6 md:px-12 lg:px-20">
                 <motion.div

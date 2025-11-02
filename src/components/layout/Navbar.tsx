@@ -1,6 +1,5 @@
 import { MdOutlineMessage } from "react-icons/md";
 import { Button } from "../ui/button"
-import Logo from "../logo"
 
 import { cn } from "../../lib/utils"
 import {
@@ -96,9 +95,9 @@ export default function Navbar() {
 
                         <div className="flex items-center gap-6">
                             {/* Logo */}
-                            <Link to="#" className="text-primary hover:text-primary/90">
-                                <Logo />
-                            </Link>
+                            <a href="/" className="text-primary hover:text-primary/90">
+                                <span className="text-[25px] font-bold text-black p-3 hover:text-white hover:bg-black/70 rounded-full">AT</span>
+                            </a>
                             {/* Desktop navigation - icon only */}
                             <NavigationMenu className="hidden md:flex">
                                 <NavigationMenuList className="gap-2">

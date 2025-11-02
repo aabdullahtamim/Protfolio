@@ -3,6 +3,7 @@ import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa6";
 
 const Contact: React.FC = () => {
     return (
@@ -58,11 +59,15 @@ const Contact: React.FC = () => {
                     >
                         <div className="flex items-center gap-4">
                             <FaEnvelope className="text-[#A2F4FD] text-2xl" />
-                            <span className="text-foreground">youremail@example.com</span>
+                            <span className="text-foreground">atwebofficial@gmail.com</span>
                         </div>
                         <div className="flex items-center gap-4">
                             <FaPhone className="text-[#A2F4FD] text-2xl" />
-                            <span className="text-foreground">+880 123 456 789</span>
+                            <span className="text-foreground">+880 1604-515250</span>
+                        </div>
+                        <div className="flex items-center gap-4">
+                            <FaFacebook className="text-[#A2F4FD] text-2xl hover:text-sky-400 transition-colors" />
+                            <span className="text-foreground">linkedin.com/in/yourprofile</span>
                         </div>
                         <div className="flex items-center gap-4">
                             <FaLinkedin className="text-[#A2F4FD] text-2xl hover:text-sky-400 transition-colors" />

@@ -10,7 +10,7 @@ const FloatingShape = ({ className }: { className?: string }) => (
 
 const Banner = () => {
     return (
-        <div className="min-h-[750px] flex items-center justify-center overflow-hidden relative">
+        <div id="banner" className="min-h-[750px] flex items-center justify-center overflow-hidden relative">
 
             {/* Animated gradient background */}
             <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 via-blue-400 to-purple-500 animate-gradient-x opacity-40 -z-10" />
