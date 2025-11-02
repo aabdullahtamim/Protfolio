@@ -1,6 +1,7 @@
 import { ArrowUpRight, CirclePlay } from "lucide-react";
 import { Button } from "../../ui/button";
 import { AnimatedSpan, Terminal, TypingAnimation } from "../../ui/terminal";
+import { BorderBeam } from "../../ui/border-beam";
 
 // Floating shape component
 const FloatingShape = ({ className }: { className?: string }) => (
