@@ -235,8 +235,8 @@ export const Terminal = ({
             <div className="h-2 w-2 rounded-full bg-green-500"></div>
           </div>
         </div>
-        <pre className="p-4 grid grid-cols-[58%_42%]">
-          <code className=" grid gap-y-1 overflow-auto">{wrappedChildren}</code>
+        <pre className="p-4 flex flex-col md:flex-row justify-center items-center">
+          <code className=" grid gap-y-1 overflow-auto md:w-[58%] w-full">{wrappedChildren}</code>
           <BannerImage />
         </pre>
       </div>

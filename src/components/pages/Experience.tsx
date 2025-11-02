@@ -10,47 +10,40 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
     {
-        year: "2023 - Present",
+        year: "2024 - Present",
         title: "MERN Stack Developer",
         place: "Personal & Freelance Projects",
         description:
             "Building full-stack web apps with React, Node.js, Express, and MongoDB. Focused on creating modern UI/UX and scalable backend APIs.",
     },
     {
-        year: "2022 - 2023",
+        year: "2023 - 2024",
         title: "Frontend Developer (React)",
         place: "Self Learning & Projects",
         description:
             "Mastered React.js, Tailwind, and TypeScript by creating interactive UI components and portfolio projects.",
     },
     {
-        year: "2021 - 2022",
-        title: "Web Development Learner",
-        place: "Online Courses & YouTube",
-        description:
-            "Learned HTML, CSS, JavaScript, and built my first responsive landing pages — started my developer journey.",
-    },
-    {
-        year: "2023 - Present",
-        title: "MERN Stack Developer",
-        place: "Personal & Freelance Projects",
-        description:
-            "Building full-stack web apps with React, Node.js, Express, and MongoDB. Focused on creating modern UI/UX and scalable backend APIs.",
-    },
-    {
         year: "2022 - 2023",
-        title: "Frontend Developer (React)",
-        place: "Self Learning & Projects",
-        description:
-            "Mastered React.js, Tailwind, and TypeScript by creating interactive UI components and portfolio projects.",
-    },
-    {
-        year: "2021 - 2022",
         title: "Web Development Learner",
         place: "Online Courses & YouTube",
         description:
             "Learned HTML, CSS, JavaScript, and built my first responsive landing pages — started my developer journey.",
     },
+    {
+        year: "2024 ",
+        title: "HSC / Alim-24 ",
+        place: "West Chila Aminiya Fazil Madrasah",
+        description:
+            "",
+    },
+    {
+        year: "2022",
+        title: "SSC / Dakhil-22",
+        place: "South taktabunia nesaria Dakhil Madrasah",
+        description:
+            "",
+    }
 ];
 
 const Experience: React.FC = () => {

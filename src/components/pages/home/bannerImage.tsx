@@ -4,13 +4,12 @@ import { MagicCard } from "../../ui/magic-card";
 
 const BannerImage: React.FC = () => {
     return (
-        <MagicCard>
+        <div className="md:w-[42%] w-full">
+            <MagicCard>
+                <img className="rounded-2xl p-3 mx-auto" src="./images/tamim.jpg" alt="my pic" />
+            </MagicCard>
+        </div>
 
-            <div className="p-2 flex justify-center items-center ">
-                <img className="rounded-2xl" src="./images/tamim.jpg" alt="my pic" />
-
-            </div>
-        </MagicCard>
     );
 };
 

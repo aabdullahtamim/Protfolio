@@ -1,4 +1,3 @@
-import { MdContacts } from "react-icons/md";
 import { MdOutlineMessage } from "react-icons/md";
 import { Button } from "../ui/button"
 import Logo from "../logo"
@@ -18,6 +17,8 @@ import ThemeToggle from "../theme-toggle"
 
 // Social icons
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { MdContacts } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa6";
 import { Link } from "react-router";
 // Navigation links
 type NavLink = {
@@ -42,7 +43,7 @@ export default function Navbar() {
 
     return (
         <div className="bg-muted relative z-20">
-            <header className="fixed top-2 inset-x-4 h-16 bg-gradient-to-bl from-cyan-100 via-cyan-200 to-cyan-300 border  max-w-(--breakpoint-xl) mx-auto rounded-full">
+            <header className="fixed top-2 inset-x-4 h-auto bg-gradient-to-bl from-cyan-100 via-cyan-200 to-cyan-300 border  max-w-(--breakpoint-xl) mx-auto rounded-full">
                 <div className="flex h-16 items-center justify-between px-4 gap-4">
                     {/* Left side */}
                     <div className="flex flex-1 items-center gap-2">
@@ -106,8 +107,8 @@ export default function Navbar() {
                                             <NavigationMenuItem key={link.label}>
                                                 <Tooltip>
                                                     <TooltipTrigger asChild>
-                                                        <NavigationMenuLink href={link.to} className="flex size-8 items-center justify-center p-1.5">
-                                                            <link.icon size={20} aria-hidden="true" />
+                                                        <NavigationMenuLink href={link.to} className="flex size-8 items-center justify-center p-1">
+                                                            <link.icon size={22} aria-hidden="true" />
                                                             <span className="sr-only">{link.label}</span>
                                                         </NavigationMenuLink>
                                                     </TooltipTrigger>
@@ -124,11 +125,14 @@ export default function Navbar() {
                     </div>
 
                     {/* Right side */}
-                    <div className="flex items-center gap-5.5">
+                    <div className="flex items-center gap-5">
 
 
                         {/* Social icons */}
-                        <div className="hidden md:flex gap-2 ml-2 ">
+                        <div className="hidden md:flex  ml-2 ">
+                            <Link to="https://github.com/aabdullahtamim" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
+                                <FaFacebook size={20} />
+                            </Link>
                             <Link to="https://github.com/aabdullahtamim" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
                                 <FaGithub size={20} />
                             </Link>
