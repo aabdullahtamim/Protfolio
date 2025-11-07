@@ -129,7 +129,7 @@ export default function Navbar() {
 
                         {/* Social icons */}
                         <div className="hidden md:flex  ml-2 ">
-                            <Link to="https://github.com/aabdullahtamim" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
+                            <Link to="https://www.facebook.com/profile.php?id=61572713171754" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
                                 <FaFacebook size={20} />
                             </Link>
                             <Link to="https://github.com/aabdullahtamim" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
@@ -138,7 +138,7 @@ export default function Navbar() {
                             <Link to="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
                                 <FaLinkedin size={20} />
                             </Link>
-                            <Link to="/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
+                            <Link to="/" rel="noopener noreferrer" className="text-muted-foreground hover:text-[#A2F4FD] hover:bg-[#0e0f0f] p-2 rounded-full transition-colors">
                                 <MdContacts size={20} />
                             </Link>
                         </div>

@@ -100,21 +100,21 @@ const Contact: React.FC = () => {
                             Have a project in mind or just want to say hi? Fill out the form or reach me directly.
                         </p>
                         <div className="flex flex-col gap-6">
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-4 hover:text-white">
                                 <FaEnvelope className="text-[#A2F4FD] text-2xl" />
-                                <span>atwebofficial@gmail.com</span>
+                                <span>aabdullahtamim01@gmail.com</span>
                             </div>
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-4 hover:text-white">
                                 <FaPhone className="text-[#A2F4FD] text-2xl" />
                                 <span>+880 1604-515250</span>
                             </div>
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-4 hover:text-white">
                                 <FaFacebook className="text-[#A2F4FD] text-2xl" />
                                 <Link to="https://www.facebook.com/profile.php?id=61572713171754" target="_blank">
                                     Abdullah Tamim
                                 </Link>
                             </div>
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-4 hover:text-white">
                                 <FaGithub className="text-[#A2F4FD] text-2xl" />
                                 <Link to="https://github.com/aabdullahtamim" target="_blank">
                                     GitHub Profile

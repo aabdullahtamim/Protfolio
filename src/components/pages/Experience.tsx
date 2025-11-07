@@ -10,41 +10,43 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
     {
-        year: "2024 - Present",
+        year: "2025 - Present",
         title: "MERN Stack Developer",
         place: "Personal & Freelance Projects",
         description:
-            "Building full-stack web apps with React, Node.js, Express, and MongoDB. Focused on creating modern UI/UX and scalable backend APIs.",
+            "Developing full-stack web applications using React, Node.js, Express, and MongoDB. Focused on crafting clean UI, efficient APIs, and delivering seamless user experiences.",
+    },
+    {
+        year: "2024 - 2025",
+        title: "Frontend Developer (React)",
+        place: "Self Learning & Personal Projects",
+        description:
+            "Gained strong expertise in React, Tailwind CSS, and TypeScript by building dynamic, responsive UIs and reusable component libraries.",
     },
     {
         year: "2023 - 2024",
-        title: "Frontend Developer (React)",
-        place: "Self Learning & Projects",
-        description:
-            "Mastered React.js, Tailwind, and TypeScript by creating interactive UI components and portfolio projects.",
-    },
-    {
-        year: "2022 - 2023",
         title: "Web Development Learner",
         place: "Online Courses & YouTube",
         description:
-            "Learned HTML, CSS, JavaScript, and built my first responsive landing pages — started my developer journey.",
+            "Learned the fundamentals of HTML, CSS, and JavaScript. Built my first responsive landing pages and started exploring modern web development.",
     },
     {
-        year: "2024 ",
-        title: "HSC / Alim-24 ",
+        year: "2024",
+        title: "HSC / Alim-24",
         place: "West Chila Aminiya Fazil Madrasah",
         description:
-            "",
+            "Completed higher secondary education with a focus on academic excellence and consistent personal growth alongside web development learning.",
     },
     {
         year: "2022",
         title: "SSC / Dakhil-22",
-        place: "South taktabunia nesaria Dakhil Madrasah",
+        place: "South Taktabunia Nesaria Dakhil Madrasah",
         description:
-            "",
-    }
+            "Successfully completed secondary education and developed a strong foundation for future studies and technical pursuits.",
+    },
 ];
+
+
 
 const Experience: React.FC = () => {
     return (

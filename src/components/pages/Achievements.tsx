@@ -11,24 +11,27 @@ interface Achievement {
 }
 
 const achievements: Achievement[] = [
-    {
-        title: "MERN Stack Certificate",
-        description: "Completed a comprehensive MERN Stack development course covering full-stack web applications.",
-        date: "June 2023",
-        icon: <FaCertificate className="text-[#A2F4FD]" />,
-        link: "https://example.com/certificate/mern",
-    },
+
     {
         title: "Top Performer Award",
         description: "Recognized as a top performer in freelance web development projects with excellent client feedback.",
-        date: "December 2023",
+        date: "December 2024",
         icon: <FaAward className="text-[#A2F4FD]" />,
+        link: "#",
     },
     {
         title: "Project Showcase Winner",
         description: "Won first place in an online web development competition for innovative full-stack projects.",
-        date: "March 2024",
+        date: "March 2025",
         icon: <FaTrophy className="text-[#A2F4FD]" />,
+        link: "#",
+    },
+    {
+        title: "MERN Stack Certificate",
+        description: "Completed a comprehensive MERN Stack development course covering full-stack web applications.",
+        date: "June 2026",
+        icon: <FaCertificate className="text-[#A2F4FD]" />,
+        link: "#",
     },
 ];
 

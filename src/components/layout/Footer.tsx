@@ -79,8 +79,8 @@ const Footer: React.FC = () => {
                 >
                     <h4 className="text-lg font-semibold text-foreground mb-4">Contact</h4>
                     <div className="flex flex-col gap-2 text-muted-foreground mb-4">
-                        <div className="flex items-center gap-2"><FaEnvelope className="text-[#A2F4FD]" />atwebofficial@gmail.com</div>
-                        <div className="flex items-center gap-2"><FaPhone className="text-[#A2F4FD]" /> +880 1604-515250</div>
+                        <div className="flex items-center gap-2 hover:text-[#A2F4FD]"><FaEnvelope className="text-[#A2F4FD]" />aabdullahtamim01@gmail.com</div>
+                        <div className="flex items-center gap-2 hover:text-[#A2F4FD]"><FaPhone className="text-[#A2F4FD]" /> +880 1604-515250</div>
                     </div>
                     <h4 className="text-lg font-semibold text-foreground mb-2">Follow Me</h4>
                     <div className="flex gap-4">

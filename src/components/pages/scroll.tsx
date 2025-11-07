@@ -3,42 +3,42 @@ import { Marquee } from "../ui/marquee"
 
 const reviews = [
     {
-        name: "Jack",
-        username: "@jack",
-        body: "I've never seen anything like this before. It's amazing. I love it.",
-        img: "https://avatar.vercel.sh/jack",
+        name: "Jack Smith",
+        username: "@jacksmith",
+        body: "Absolutely blown away! The design and functionality are top-notch. Highly recommended.",
+        img: "https://i.pravatar.cc/150?img=32",
     },
     {
-        name: "Jill",
-        username: "@jill",
-        body: "I don't know what to say. I'm speechless. This is amazing.",
-        img: "https://avatar.vercel.sh/jill",
+        name: "Jill Taylor",
+        username: "@jillt",
+        body: "I’ve never experienced something this smooth before. The attention to detail is amazing!",
+        img: "https://i.pravatar.cc/150?img=12",
     },
     {
-        name: "John",
-        username: "@john",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/john",
+        name: "John Doe",
+        username: "@johndoe",
+        body: "The interface is clean and intuitive. Everything works perfectly. I’m genuinely impressed.",
+        img: "https://i.pravatar.cc/150?img=45",
     },
     {
-        name: "Jane",
-        username: "@jane",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/jane",
+        name: "Jane Wilson",
+        username: "@janew",
+        body: "This is hands-down one of the best experiences I’ve had with any web application. Love it!",
+        img: "https://i.pravatar.cc/150?img=68",
     },
     {
-        name: "Jenny",
-        username: "@jenny",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/jenny",
+        name: "Jenny Lee",
+        username: "@jennyl",
+        body: "Incredible work! Everything feels smooth and polished. Very happy with the result.",
+        img: "https://i.pravatar.cc/150?img=52",
     },
     {
-        name: "James",
-        username: "@james",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/james",
+        name: "James Brown",
+        username: "@jamesb",
+        body: "I’m amazed at how well everything flows together. Truly a fantastic experience.",
+        img: "https://i.pravatar.cc/150?img=7",
     },
-]
+];
 
 // simple className utility used in this file
 const cn = (...inputs: Array<string | false | null | undefined>) =>
@@ -84,8 +84,8 @@ const ReviewCard = ({
 
 export function Scroll() {
     return (
-        <div className="relative mt-4 flex w-full flex-col items-center justify-center overflow-hidden">
-            <Marquee pauseOnHover className="[--duration:20s]">
+        <div className="relative mt-4 flex w-full flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-background via-[#A2F4FD]/10 to-background">
+            <Marquee pauseOnHover className="[--duration:20s] ">
                 {firstRow.map((review) => (
                     <ReviewCard key={review.username} {...review} />
                 ))}
