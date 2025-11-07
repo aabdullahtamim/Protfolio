@@ -17,45 +17,46 @@ const testimonials: Testimonial[] = [
   {
     name: "Nabil Khan",
     role: "UI/UX Designer",
-    photo: "/src/assets/images/review/img-01.jpg",
+    photo: "https://randomuser.me/api/portraits/men/32.jpg",
     text: "Collaborating with Tamim was an incredible experience. His ability to turn design concepts into pixel-perfect, responsive layouts truly stands out.",
     rating: 5,
   },
   {
     name: "Rafiq Hossain",
     role: "Senior Project Manager",
-    photo: "/src/assets/images/review/img-02.jpg",
+    photo: "https://randomuser.me/api/portraits/men/12.jpg",
     text: "Tamim’s professionalism and problem-solving mindset made a huge difference to our project. He’s efficient, creative, and always delivers high-quality results on time.",
     rating: 5,
   },
   {
     name: "Amina Chowdhury",
     role: "Startup Founder",
-    photo: "/src/assets/images/review/img-03.jpg",
+    photo: "https://randomuser.me/api/portraits/women/45.jpg",
     text: "Tamim exceeded our expectations. His frontend expertise, clean coding style, and modern design sense brought our vision to life flawlessly.",
     rating: 5,
   },
   {
     name: "Sarah Ahmed",
     role: "Backend Engineer",
-    photo: "/src/assets/images/review/img-04.jpg",
+    photo: "https://randomuser.me/api/portraits/women/68.jpg",
     text: "Tamim’s attention to detail and seamless integration with backend systems made collaboration effortless. A true professional who knows his craft well.",
     rating: 5,
   },
   {
     name: "Hamid Hossain",
     role: "Technical Lead",
-    photo: "/src/assets/images/review/img-05.jpg",
+    photo: "https://randomuser.me/api/portraits/men/52.jpg",
     text: "From performance optimization to design refinement, Tamim handled every challenge with confidence and skill. Highly reliable and skilled developer.",
     rating: 4,
   },
   {
     name: "Arman Chowdhury",
     role: "Entrepreneur",
-    photo: "/src/assets/images/review/img-06.jpg",
+    photo: "https://randomuser.me/api/portraits/men/7.jpg",
     text: "Working with Tamim was a game-changer. His eye for design and quick execution made our product look and perform exceptionally well.",
     rating: 5,
   },
+
 ];
 
 // ✅ Main Component
