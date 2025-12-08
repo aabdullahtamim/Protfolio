@@ -25,17 +25,17 @@ const Banner = () => {
                 {/* Left Column */}
                 <div className=" mt-10 h-full flex flex-col gap-3 relative z-10">
                     {/* Pre-heading */}
-                    <span className="text-lg md:text-2xl font-medium text-cyan-50 tracking-tight">
+                    <span className="text-lg md:text-2xl font-medium dark:text-cyan-50 tracking-tight">
                         Full Stack Developer & MERN Specialist
                     </span>
 
                     {/* Main Heading */}
-                    <h1 className="text-4xl md:text-5xl lg:text-[3rem] xl:text-[3.5rem] font-extrabold leading-tight tracking-tighter bg-gradient-to-r from-white to-cyan-200 text-transparent bg-clip-text">
+                    <h1 className="text-4xl md:text-5xl lg:text-[3rem] xl:text-[3.5rem] font-extrabold leading-tight tracking-tighter dark:text-cyan-200">
                         I'm Abdullah Tamim
                     </h1>
 
                     {/* Description */}
-                    <p className="text-lg md:text-xl text-white/90 max-w-[600px]">
+                    <p className="text-lg md:text-xl dark:text-white/90 max-w-[600px]">
                         I build modern, responsive web applications with <strong>React.js, Node.js, MongoDB, and TypeScript</strong>. Passionate about UI/UX, clean code, and scalable architecture.
                     </p>
 
@@ -131,86 +131,4 @@ export default Banner;
 
 
 
-
-
-(
-    <section className="relative mt-32 flex items-center justify-center overflow-hidden px-6 py-16 md:py-24 lg:py-32">
-        {/* Animated Gradient Background */}
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-200 via-blue-200 to-purple-300 bg-[length:200%_200%] animate-gradient-x opacity-60 -z-10" />
-
-        {/* Floating Accent Shapes */}
-        <div className="absolute w-32 h-32 top-10 left-10 bg-white/20 rounded-full blur-2xl animate-pulse-slow" />
-        <div className="absolute w-24 h-24 bottom-20 right-20 bg-cyan-300/20 rounded-full blur-2xl animate-pulse-slower" />
-
-        <div className="relative max-w-(--breakpoint-xl) w-full grid lg:grid-cols-[45%_55%] gap-10 md:gap-16 items-center">
-            {/* === LEFT CONTENT === */}
-            <div className="z-10">
-                <span className="block text-base md:text-lg font-semibold text-cyan-800 dark:text-cyan-200">
-                    Welcome to my website 👋
-                </span>
-
-                <h1 className="mt-4 text-4xl md:text-5xl xl:text-6xl font-bold tracking-tight leading-tight">
-                    Hi, I’m <span className="text-cyan-600 dark:text-cyan-300">Abdullah Tamim</span>
-                </h1>
-
-                <p className="mt-4 max-w-[50ch] text-base md:text-lg text-muted-foreground leading-relaxed">
-                    A passionate <strong>Full Stack MERN Developer</strong> dedicated to building interactive,
-                    dynamic, and scalable web applications using modern technologies.
-                </p>
-
-                <p className="mt-2 text-sm md:text-base text-muted-foreground">
-                    I focus on clean code, beautiful UI/UX, and seamless performance for real-world projects.
-                </p>
-
-                {/* CTA Buttons */}
-                <div className="mt-8 flex flex-wrap gap-4">
-                    <Button
-                        size="lg"
-                        className="rounded-full text-base relative overflow-hidden bg-white text-black hover:bg-cyan-100 transition-all"
-                    >
-                        <BorderBeam duration={8} size={100} />
-                        Hire Me <ArrowUpRight className="ml-2 h-5 w-5" />
-                    </Button>
-
-                    <Button
-                        variant="outline"
-                        size="lg"
-                        className="rounded-full text-base shadow-none relative overflow-hidden border-cyan-400 hover:bg-cyan-50 dark:hover:bg-cyan-900/30"
-                    >
-                        <BorderBeam duration={8} size={100} />
-                        <CirclePlay className="mr-2 h-5 w-5" /> Download CV
-                    </Button>
-                </div>
-            </div>
-
-            {/* === RIGHT SIDE TERMINAL === */}
-            <div className="relative w-full h-full bg-accent/30 dark:bg-accent/10 rounded-xl backdrop-blur-sm shadow-lg p-4 sm:p-6 lg:p-8 overflow-hidden">
-                <Terminal>
-                    <TypingAnimation>&gt; npm create protfolio@latest init</TypingAnimation>
-                    <AnimatedSpan className="text-green-500">
-                        ✔ Checking environment and dependencies...
-                    </AnimatedSpan>
-                    <AnimatedSpan className="text-green-500">
-                        ✔ Setting up MERN Stack (MongoDB, Express, React, Node).
-                    </AnimatedSpan>
-                    <AnimatedSpan className="text-green-500">
-                        ✔ Integrating Tailwind CSS, Shadcn UI, and TypeScript.
-                    </AnimatedSpan>
-                    <AnimatedSpan className="text-green-500">
-                        ✔ Validating routes and API connections with RTK Query.
-                    </AnimatedSpan>
-                    <AnimatedSpan className="text-blue-500">
-                        ℹ Updated Files: src/App.tsx, src/components/ui, src/workflows.ts
-                    </AnimatedSpan>
-                    <TypingAnimation className="text-muted-foreground">
-                        🚀 Successfully deployed Abdullah Tamim’s Portfolio!
-                    </TypingAnimation>
-                    <TypingAnimation className="text-muted-foreground">
-                        Ready to explore your next project?
-                    </TypingAnimation>
-                </Terminal>
-            </div>
-        </div>
-    </section>
-);
 
